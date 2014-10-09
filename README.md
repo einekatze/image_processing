@@ -3,11 +3,13 @@
 image_processing is an experiment in tinkering with images in Python 3 without making use of third-party libraries.
  
 This project features a simple PNG encoder, as well as a class for tinkering with 32-bit RGBA images.
-Furthermore, primitive font rendering support is available through the Font class. 
+Furthermore, primitive bitmap font rendering support is available through the Font class. The PNG encoder supports
+outputting [APNG][apng]-specific chunks, so it can be used to generate [animated PNGs][apng] as well.
 
 image_processing is not a serious attempt at making an image processing library. That's why it only supports 
 exporting one single kind of PNG image: 24-bit RGB without interlacing.
 
+[apng]: http://en.wikipedia.org/wiki/APNG 
 
 ## Example application
 
