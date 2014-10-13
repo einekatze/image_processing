@@ -1,1 +1,1 @@
-__author__ = 'user'
+# There is nothing to see here!
